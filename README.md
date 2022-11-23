@@ -16,6 +16,7 @@ There are four kinds of aliens each which tally a different number of points dep
 
 ## Game Logic
 
+```
 Playable Character
     create a function for moving left to right 
     Create a function for shooting
@@ -32,7 +33,7 @@ NPC (invaders)
     certain invaders can shoot projectile down randomly. 
         this function is another psuedo-random function that has a frequency and time input
     if invader(s) reach the bottom of the screen, the game is over
-
+```
 
 ## Deliverables
 
@@ -41,11 +42,12 @@ NPC (invaders)
 ### MVP Criteria
 
 - Defender must be able to navifgate side to side and shoot projectile
-- Invaders must be able to navigate predetermined path and shoot projectile
+-Invaders must be able to traverse path until touchdown
 - Projectiles that hit any character must either kill the invader or kill the defender and end the game
 
 ### Post-MVP Plans
 
+- Invaders must be able to navigate predetermined path and shoot projectile
 - Creat voxelated structures which protect the defender
 - Create new levels with increased difficulty by either increasing number of invaders, travel speed, frequency of projectiles, or any combination of the three. 
 
